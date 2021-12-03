@@ -16,7 +16,7 @@
   --black1: #212529;
   --black2: #3c4858;
   --grey: #8492a6;
-  /* --backgroundColor: #f9fafd; */
+  --backgroundColor: #f9fafd; 
   --backgroundColor: #eaedf2;
   --white: #fff;
 }
@@ -80,11 +80,11 @@ img {
   padding: 0 1.6rem;
 }
 
-/* @media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   .container {
     max-width: 90rem;
   }
-} */
+} 
 @media only screen and (max-width: 996px) {
   .container {
     padding: 0 3rem;
@@ -337,7 +337,7 @@ Banner
 
 .banner__content {
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 7%;
   width: 50%;
 }
@@ -462,13 +462,21 @@ Banner Media Query
   }
 
   .banner__content .primary__title {
-    font-size: 4rem;
+    font-size: 1.8rem;
   }
-
+  
   .banner__content .title__info {
     margin-bottom: 1rem;
   }
+  @media only screen and (min-width: 360px) {
+    .banner__content {
+      top: 23%;
+      left: 8%;
+      width: 90%;
+    }
+  }
 }
+
 
 /* 
 ==========================
@@ -545,9 +553,11 @@ Go To
   margin-bottom: 3rem;
 }
 
+
+
 .title h1::after {
   content: "";
-  width: 60%;
+  width: 80%;
   position: absolute;
   bottom: -1rem;
   left: 0;

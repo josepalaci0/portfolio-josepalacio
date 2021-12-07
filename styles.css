@@ -3,6 +3,10 @@
    ====================
 */
 :root {
+  /*--default: #e04949;*/
+  /*--default: #43ddf1;*/  
+  /*--default: #378a07;*/
+  /*--default: #701170;*/
   --default: #e04949;
   --default2: #e61616;
   --blue: #2d84fb;
@@ -329,9 +333,9 @@ Banner
 .banner {
   width: 100%;
   height: 100%;
-  background-image: url("./images/profile4.png");
+  background-image: url("./images/persona.png");
   background-position: right bottom;
-  background-size: 500px;
+  background-size: 650px;
   background-repeat: no-repeat;
 }
 
@@ -590,6 +594,7 @@ Go To
 
 .img__cover img {
   max-width: 100%;
+  transform: translateY(1%);
   max-height: 100%;
 }
 
@@ -635,6 +640,20 @@ Go To
 }
 
 .right__content .btn:hover {
+  background-color: var(--default2);
+}
+.enviar{
+  width: 30%;
+  display: inline-block;
+  padding: 1.3rem 1.8rem;
+  font-size: 1.8rem;
+  color: var(--white);
+  border-radius: 1rem;
+  background-color: var(--default);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+.enviar:hover{
   background-color: var(--default2);
 }
 
@@ -688,19 +707,19 @@ Go To
   height: 0.4rem;
 }
 
-.skills__box .html {
-  width: 95%;
+.skills__box .HTML5-CSS-JavaScript-PHP{
+  width: 70%;
 }
 
-.skills__box .css {
-  width: 85%;
+.skills__box .Angular-React-framework-Web-Developmet {
+  width: 50%;
 }
 
-.skills__box .javascript {
+.skills__box .MySQL-SQL-Server-Oracle-DATA-BASE {
   width: 90%;
 }
 
-.skills__box .nodejs {
+.skills__box .Desktop-Developmet-ASP-NET-JAVA {
   width: 80%;
 }
 

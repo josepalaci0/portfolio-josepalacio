@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "jose-palacio"
-  }
+    "default": "jose-palacio",
+    "start": "jose-gregorio"
+  },
+  "targets": {}
 }
